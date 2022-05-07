@@ -1,0 +1,16 @@
+## Commands - Usage ##
+name: "gamemode"
+description: "Permet de changer son mode de jeu"
+alias: "gm"
+
+## Commands - Message ##
+
+gamemode.perm: "gamemode.perm"
+prefix: "§l§6LotchMc »§r§f "
+usage.message: "Vous devez faire /gm (0/1/2/3)"
+notperm.message: "Vous n'avez pas la permission requise !"
+
+survie.message: "Vous êtes désormais en §6Créatif §f!"
+creatif.message: "Vous êtes désormais en §6Créatif §f!"
+eventure.message: "Vous êtes désormais en §6Aventure §f!"
+spectateur.message: "Vous êtes désormais en §6Spectateur §f!"

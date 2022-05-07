@@ -1,0 +1,5 @@
+name: GamemodeCommand
+version: 1.0
+api: 4.0.0
+main: LotchMc\Gamemode\Main
+author: LotchMc
