@@ -16,7 +16,6 @@ class Main extends PluginBase {
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         $this->getResource("config.yml");
-        $this->getLogger()->info("§6Valdoria §f a été chargé avec succès !");
 
         $this->getServer()->getCommandMap()->unregister($this->getServer()->getCommandMap()->getCommand("gamemode"));
         $this->getServer()->getCommandMap()->register("", new Gamemode());
